@@ -23,3 +23,15 @@ git merge
 
 подключеие репозитория
 git remote add origin git@github.com:ruslan1984/shop.git
+
+Работа с ветками
+
+на какой ветке
+git branch
+
+переключиться на ветку
+git checkout <название ветки>
+
+создать ветку и переключиться на нее
+git checkout -b <название ветки>
+git checkout -b develop
