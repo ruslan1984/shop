@@ -18,5 +18,7 @@ git push origin main
 git pull <метка удаленного-репозитория> <ветка>
 git pull origin main
 
+test
+
 подключеие репозитория
 git remote add origin git@github.com:ruslan1984/shop.git
