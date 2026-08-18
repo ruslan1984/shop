@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Одежда</title>
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="ut-8" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div>
+        <img class="logoImg" src="./img/logo.jpg" alt="" />
+      </div>
+      <ul class="nav">
+        <li><a class="link" href="">Мужская одежда</a></li>
+        <li><a class="link" href="">Женская ожежда</a></li>
+      </ul>
+    </header>
+    <main>
+      <div class="conteiner">
+        <section>
+          <h1>Магазин одежды <u>LIRA</u></h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam est
+            qui sed. Labore quasi aut pariatur neque eligendi repellat
+            reiciendis perspiciatis, veritatis architecto magnam minus
+            recusandae amet nostrum, quam dolore.
+          </p>
+        </section>
+        <section>
+          <h3>Одежда</h3>
+          <div class="cardBlock1"></div>
+          <button class="btn saveCardBlock1">Сохранить Товары</button>
+
+          <form class="addProductForm" action="">
+            <input
+              class="input"
+              required
+              name="name"
+              placeholder="Название"
+              type="text"
+            />
+            <input
+              class="input"
+              required
+              name="img"
+              placeholder="Картинка"
+              type="text"
+            />
+            <button class="btn addProduct">Добавить продукт</button>
+          </form>
+        </section>
+        <section>
+          <h3>Всякие мелочи</h3>
+          <div>
+            <div>Заколки</div>
+            <div>Сумки</div>
+            <div>Бижутерия</div>
+            <div>Косметика</div>
+          </div>
+        </section>
+        <section>
+          <h3>Форма обратной связи</h3>
+          <form action="">
+            <div class="line">
+              <label class="label" for="name">Ваше имя</label>
+              <input
+                class="input"
+                required
+                id="name"
+                name="name"
+                placeholder="Ваше имя"
+              />
+            </div>
+            <div class="line">
+              <label class="label" for="surname">Ваша фамилия</label>
+              <input
+                class="input"
+                id="surname"
+                name="surname"
+                placeholder="Ваша фамилия"
+              />
+            </div>
+
+            <div class="line">
+              <label class="label" for="age">Ваш возраст</label>
+              <input
+                class="input"
+                type="checkbox"
+                id="age"
+                name="age"
+                placeholder="Ваш возраст"
+              />
+            </div>
+            <textarea class="input" name="" id=""></textarea>
+            <button class="btn">Сохранить</button>
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+  <script src="./script.js"></script>
+</html>
